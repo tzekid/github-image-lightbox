@@ -1,0 +1,14 @@
+{
+  "name": "github-image-lightbox",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Safari Web Extension: view GitHub screenshots in an overlay on the current page.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}

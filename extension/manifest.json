@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Image Lightbox",
+  "version": "0.1.0",
+  "description": "View GitHub screenshots in an overlay on the current page.",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_start"
+    }
+  ]
+}
